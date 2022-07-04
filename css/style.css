@@ -1,0 +1,101 @@
+header{
+    padding: 0 2%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    box-sizing: border-box;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.top_menu{}
+.top_menu ul{
+    margin-bottom: 0;
+}
+.top_menu ul li{
+    padding: 5px 10px;
+}
+.top_menu ul li i, .middle_menu ul li i{
+
+    padding-left: 5px;
+    color: #ED253C;
+}
+
+.top_menu ul li a, .middle_menu ul li a{
+    color: #ED253C;
+}
+.middle_menu ul li{
+    border-left: 1px solid #ED253C;
+}
+.middle_menu ul li:last-child{
+    border-left: none;
+}
+.middle_menu ul li a{
+    padding: 0 5px;
+    display: inline;
+   
+}
+.middle_menu ul li img{
+    width: 25%;
+    display: inline;
+    
+}
+.search_1 input{
+    border: none;
+   border-bottom: 1px solid black;
+     outline: none;
+     box-shadow: none;
+     border-radius: 0;
+}
+
+.search_1 input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.search_1 button{
+    color: #ED253C;
+}
+.search_1 button:hover{
+    color: #ED253C !important;
+}
+.search_1 button:focus{
+    box-shadow: none;
+    outline: none;
+    color: #ED253C !important;
+}
+nav{
+    background-color: #2e2e2e;
+    padding: 3px !important;
+}
+.main_menu li{
+    border-left: 1px solid #ffffff;
+}
+.main_menu li:last-child{
+    border-left: none;
+}
+.main_menu li a{
+    color: #ffffff !important;
+    padding: 0;
+   
+}
+.main_menu li a:last-child{
+   
+    
+}
+
+.main_menu li a:hover{
+    color: #ED253C !important;
+}
+.navbar-toggler i{
+    font-size: 26px;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: none;
+}
